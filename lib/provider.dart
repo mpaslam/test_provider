@@ -8,5 +8,6 @@ class NameModel extends ChangeNotifier {
   void changeName(String newName) {
     _name = newName;
     notifyListeners(); // Notify listeners when the state changes
+
   }
 }
